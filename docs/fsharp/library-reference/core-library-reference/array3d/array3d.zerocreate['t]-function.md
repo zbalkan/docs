@@ -1,24 +1,12 @@
 ---
 title: Array3D.zeroCreate<'T> Function (F#)
-description: Array3D.zeroCreate<'T> Function (F#)
-keywords: visual f#, f#, functional programming
-author: dend
-manager: danielfe
-ms.date: 05/16/2016
-ms.topic: language-reference
-ms.prod: visual-studio-dev14
-ms.technology: devlang-fsharp
-ms.assetid: 216a5588-352f-402f-a0d6-996b67db98ff 
+description: Array3D.zeroCreate<'T> Function (F#)index.md
+ms.date: 3/3/2020
 ---
 
 # Array3D.zeroCreate<'T> Function (F#)
 
 Creates an array where the entries are initially the default value.
-
-**Namespace/Module Path:** Microsoft.FSharp.Collections.Array3D
-
-**Assembly:** FSharp.Core (in FSharp.Core.dll)
-
 
 ## Syntax
 
@@ -58,15 +46,7 @@ The created array.
 ## Remarks
 This function is named `ZeroCreate` in compiled assembly. If you are accessing the function from a language other than F#, or through reflection, use this name.
 
-## Platforms
-Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
-## Version Information
-**F# Core Library Versions**
-
-Supported in: 2.0, 4.0, Portable
-
 ## See Also
-[Collections.Array3D Module](Collections.Array3D-Module-%5BFSharp%5D.md)
+[Collections.Array3D Module](index.md)
 
 [Microsoft.FSharp.Collections Namespace](Microsoft.FSharp.Collections-Namespace.md)

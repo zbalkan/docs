@@ -1,24 +1,12 @@
 ---
 title: Array3D.map<'T,'U> Function (F#)
-description: Array3D.map<'T,'U> Function (F#)
-keywords: visual f#, f#, functional programming
-author: dend
-manager: danielfe
-ms.date: 05/16/2016
-ms.topic: language-reference
-ms.prod: visual-studio-dev14
-ms.technology: devlang-fsharp
-ms.assetid: ee9a960c-7c70-4844-b206-8edb5b86df7b 
+description: Array3D.map<'T,'U> Function (F#)index.md
+ms.date: 3/3/2020
 ---
 
 # Array3D.map<'T,'U> Function (F#)
 
 Creates a new array whose elements are the results of applying the given function to each of the elements of the array.
-
-**Namespace/Module Path:** Microsoft.FSharp.Collections.Array3D
-
-**Assembly:** FSharp.Core (in FSharp.Core.dll)
-
 
 ## Syntax
 
@@ -53,17 +41,7 @@ For non-zero-based arrays the basing on an input array will be propagated to the
 
 This function is named `Map` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
-
-## Platforms
-Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
-
-## Version Information
-**F# Core Library Versions**
-
-Supported in: 2.0, 4.0, Portable
-
 ## See Also
-[Collections.Array3D Module](Collections.Array3D-Module-%5BFSharp%5D.md)
+[Collections.Array3D Module](index.md)
 
 [Microsoft.FSharp.Collections Namespace](Microsoft.FSharp.Collections-Namespace.md)

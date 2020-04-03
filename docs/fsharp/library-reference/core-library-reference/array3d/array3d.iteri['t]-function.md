@@ -1,25 +1,12 @@
 ---
 title: Array3D.iteri<'T> Function (F#)
-description: Array3D.iteri<'T> Function (F#)
-keywords: visual f#, f#, functional programming
-author: dend
-manager: danielfe
-ms.date: 05/16/2016
-ms.topic: language-reference
-ms.prod: visual-studio-dev14
-ms.technology: devlang-fsharp
-ms.assetid: 70e3b26b-04b3-41a2-b628-2fd6eb22f7da 
+description: Array3D.iteri<'T> Function (F#)index.md
+ms.date: 3/3/2020
 ---
 
 # Array3D.iteri<'T> Function (F#)
 
 Applies the given function to each element of the array. The integer indicies passed to the function indicates the index of element.
-
-**Namespace/Module Path**: Microsoft.FSharp.Collections.Array3D
-
-**Assembly**: FSharp.Core (in FSharp.Core.dll)
-
-
 ## Syntax
 
 ```fsharp
@@ -51,20 +38,8 @@ The input array.
 This function is named `IterateIndexed` in compiled assemblies. If you are accessing the function from a .NET language other than F#, or through reflection, use this name.
 
 
-## Platforms
-Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2
-
-
-## Version Information
-**F# Core Library Versions**
-
-Supported in: 2.0, 4.0, Portable
-
-
-
-
 ## See Also
-[Collections.Array3D Module](Collections.Array3D-Module-%5BFSharp%5D.md)
+[Collections.Array3D Module](index.md)
 
 [Microsoft.FSharp.Collections Namespace](Microsoft.FSharp.Collections-Namespace.md)
 
