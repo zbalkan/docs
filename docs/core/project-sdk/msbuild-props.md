@@ -521,6 +521,9 @@ Optionally, starting in .NET 6, you can specify a compound value for this proper
 </PropertyGroup>
 ```
 
+> [!NOTE]
+> If `AnalysisLevel` is set to `5-<mode>` or `5.0-<mode>` and you install the .NET 6 SDK and recompile your project, you may see new build warnings. For more information, see [dotnet/roslyn-analyzers#567](https://github.com/dotnet/roslyn-analyzers/issues/567).
+
 Default value:
 
 - If your project targets .NET 5 or later, or if you've added the [AnalysisMode](#analysismode) property, the default value is `latest`.
@@ -606,6 +609,7 @@ The following table shows the available options. They're listed in increasing or
 >
 > - In .NET 5, this property only affects [code-quality (CAXXXX) rules](../../fundamentals/code-analysis/quality-rules/index.md). Starting in .NET 6, if you set [EnforceCodeStyleInBuild](#enforcecodestyleinbuild) to `true`, this property affects [code-style (IDEXXXX) rules](../../fundamentals/code-analysis/style-rules/index.md) too.
 > - If you use a compound value for [AnalysisLevel](#analysislevel), for example, `<AnalysisLevel>5-recommended</AnalysisLevel>`, you can omit this property entirely. However, if you specify both properties, `AnalysisLevel` takes precedence over `AnalysisMode`.
+> - If you've set `AnalysisMode` to `Minimum`, `Recommended`, or `AllEnabledByDefault` and you install the .NET 6 SDK and recompile your project, you may see new build warnings from the new .NET 6 analyzers. For more information, see [dotnet/roslyn-analyzers#567](https://github.com/dotnet/roslyn-analyzers/issues/567).
 > - This property has no effect on code analysis in projects that don't reference a [project SDK](overview.md), for example, legacy .NET Framework projects that reference the Microsoft.CodeAnalysis.NetAnalyzers NuGet package.
 
 ### AnalysisMode\<Category>
