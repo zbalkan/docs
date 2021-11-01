@@ -53,7 +53,7 @@ You can use positional parameters to declare properties of a record and to initi
 
 When you use the positional syntax for property definition, the compiler creates:
 
-* A public init-only auto-implemented property for each positional parameter provided in the record declaration.
+* A public auto-implemented property for each positional parameter provided in the record declaration.
   - For `record` types and `readonly record struct` types: An [init-only](../keywords/init.md) property can only be set in the constructor or by using a property initializer.
   - For `record struct` types: A read-write property that can be set in a constructor, property initializer, or assignment after construction.
 * A primary constructor whose parameters match the positional parameters on the record declaration.
